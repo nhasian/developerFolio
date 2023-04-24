@@ -155,18 +155,24 @@ Set `displayMediumBlogs` to true or false in portofolio.js to display fetched Me
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  title: "Hi all I'm Saad",
-  subTitle: emoji("A passionate Full Stack Software Developer 🚀"),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  title: "Hi all I'm Nasser",
+  subTitle: emoji("A passionate IT Systems Administrator 🚀"),
+  resumeLink: "https://docs.google.com/document/d/1RPsqPvR7mSAObLpgPJDmuMWLESf2GfaDs_h0qN_RxIU/edit?usp=sharing"
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/nhasian",
+  linkedin: "https://www.linkedin.com/in/nhasian/",
+  gmail: "nhasian.work@gmail.com",
+  // gitlab: "https://gitlab.com/nhasian",
+  // facebook: "https://www.facebook.com/",
+  medium: "https://medium.com/@nhasian",
+  twitter: "https://twitter.com/nhasian",
+  // stackoverflow: "https://stackoverflow.com/users/",
+  // Instagram, Twitter and Kaggle are also supported in the links!
+  // To customize icons and social links, tweak src/components/SocialMedia
+  display: true // Set true to display this section, defaults to false
 };
 
 
@@ -203,7 +209,7 @@ Insert your Twitter username in `portfolio.js` to show your recent activity on y
 
 ```javascript
 const twitterDetails = {
-  userName : "Your Twitter Username"
+  userName : "nhasian"
 };
 ```
 Note: Don't use `@` symbol when adding username.
