@@ -50,7 +50,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Seasoned IT Administrator with a strong background in management and information technology",
+  subTitle:
+    "Seasoned IT Administrator with a strong background in management and information technology",
   skills: [
     emoji(
       "⚡ Design and manage IT infrastructur to support users and IT equipment"
@@ -104,8 +105,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Github",
       fontAwesomeClassname: "fas fa-code"
-    },
-
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -120,7 +120,7 @@ const educationInfo = {
       logo: require("./assets/images/NAU-University-Seal-True-Blue-300x300.png"),
       subHeader: "Bachelor Interdisciplinary Studies Technology Management",
       duration: "2017 - 2019",
-      desc: "Summa Cum Laude",
+      desc: "Summa Cum Laude"
       // descBullets: [
       //  "Nothing here yet",
       //  "Nothing here yet"
@@ -131,7 +131,7 @@ const educationInfo = {
       logo: require("./assets/images/1591891340401.jfif"),
       subHeader: "Associate Degree",
       duration: "2015 - 2017",
-      desc: "Ranked top 10% in the program. Received Cisco certification",
+      desc: "Ranked top 10% in the program. Received Cisco certification"
       // descBullets: ["Nothing here yet"]
     }
   ]
@@ -262,8 +262,7 @@ const achievementSection = {
     },
     {
       title: "Cisco CCENT",
-      subtitle:
-        "Cisco certificate for network routing and switching",
+      subtitle: "Cisco certificate for network routing and switching",
       image: require("./assets/images/CCENT-Routing-and-Switching-345x345.jpg"),
       imageAlt: "Cisco CCENT Logo",
       footerLink: [
@@ -279,9 +278,7 @@ const achievementSection = {
       subtitle: "Workstation and Server",
       image: require("./assets/images/MicrosoftCertifiedProfessional-300x76.jpg"),
       imageAlt: "Microsoft Certified Professional Logo",
-      footerLink: [
-        {name: "Certification", url: ""}
-      ]
+      footerLink: [{name: "Certification", url: ""}]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -315,15 +312,15 @@ const blogSection = {
 
 const talkSection = {
   title: "Valunteering",
-  subtitle: emoji(
-    "I've been volunteering regularly for the past 10 years"
-  ),
+  subtitle: emoji("I've been volunteering regularly for the past 10 years"),
 
   talks: [
     {
       title: "You, 2.0",
-      subtitle: "Cyber Security presentation for the Televerde Foundation May 2022",
-      slides_url: "https://docs.google.com/presentation/d/1_fD_NdK8KWRDaQ3qBLCy-kqlEOBbWABLcS3eTLHS7vI/edit?usp=sharing",
+      subtitle:
+        "Cyber Security presentation for the Televerde Foundation May 2022",
+      slides_url:
+        "https://docs.google.com/presentation/d/1_fD_NdK8KWRDaQ3qBLCy-kqlEOBbWABLcS3eTLHS7vI/edit?usp=sharing",
       event_url: "https://www.facebook.com/TeleverdeFoundation"
     },
     {
@@ -343,9 +340,7 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://mypodcast"
-  ],
+  podcast: ["https://mypodcast"],
   display: false // Set false to hide this section, defaults to true
 };
 
